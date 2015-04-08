@@ -39,4 +39,4 @@ If cPanel backups are run manually, the log directory should exist in the presen
 
 ## Threading ##
 
-When a file is uploaded in multiple parts, threading will be used. By default, four threads will be used, however this is easilly adjusted by changing the `THREADS` variable.
+When a file is uploaded in multiple parts, threading will be used. By default, six threads will be used, however this is easilly adjusted by changing the `THREADS` variable.
