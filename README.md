@@ -29,7 +29,9 @@ You can get your Access Key & Secret Key from `https://my.ukfast.co.uk/ecloud-va
 Really, that should be it
 
 ## Known Issues ##
-If you receive an error when validating the destination regarding not being able to find the file, make sure that in Notepad++ you have the UNIX/OSX EOL Conversion active, save the file and re-upload it. Linux likes to be picky, but don't we all?
+1. If you receive an error when validating the destination regarding not being able to find the file, make sure that in Notepad++ you have the UNIX/OSX EOL Conversion active, save the file and re-upload it. Linux likes to be picky, but don't we all?
+
+2. Pruning old backups currently does not work. Files would need to be uploaded to S3 with the prefix "rwxsSrT-", a permission string to work correctly. I'll look into this one.
 
 ## Logging ##
 
